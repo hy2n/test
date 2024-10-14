@@ -1,12 +1,15 @@
 {
-  "name": "node-docker-app",
+  "name": "public-ip-node-app",
   "version": "1.0.0",
-  "description": "A simple Node.js app in Docker",
+  "description": "A Node.js app to return the server's public IP",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
+    "axios": "^1.5.0",  // 최신 버전으로 설치
     "express": "^4.17.1"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }
